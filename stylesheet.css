@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+   
+}
+.header{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(33, 140, 189);
+}
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+.container-main ul{
+    list-style: none;
+    display: flex;
+   align-items: center;
+    
+}
+.container-main ul li{
+    text-decoration: none;
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    float: left;
+}
+.container-main ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    float: left;
+    color: white;
+}
+/* .current a::after{
+    content: "_";
+    background-color: white;
+    font-size: 4px;
+    display: block;
+} */
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+.wrapper .equation_input{
+    
+    background-color: rgb(160, 82, 82);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.wrapper .equation_input h1{
+    font-size: 175px;
+    display: inline;
+    padding: 20px;
+   
+}
+.answer-option {
+    background-color: aqua;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-top: 90px;
+    
+}
+.answer-option h1{
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 67px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#option1{
+    background-color: brown;
+    transition: 1s;
+    overflow: hidden;
+}
+#option2{
+    background-color: rgb(202, 184, 184);
+    transition: 1s;
+    overflow: hidden;
+}
+#option3{
+    background-color: rgb(238, 117, 117);
+    transition: 1s;
+    overflow: hidden;
+}
+#option3:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+#option2:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+#option1:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
